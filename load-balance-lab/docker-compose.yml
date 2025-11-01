@@ -1,0 +1,19 @@
+version: "3"
+services:
+  app1:
+    build: .
+  app2:
+    build: .
+  app3:
+    build: .
+
+  nginx:
+    image: nginx:latest
+    ports:
+      - "8080:80"
+    volumes:
+      - ./nginx.conf:/etc/nginx/nginx.conf
+    depends_on:
+      - app1
+      - app2
+      - app3
