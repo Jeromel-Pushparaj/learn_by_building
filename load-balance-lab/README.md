@@ -1,12 +1,4 @@
-Here is a clean, professional **GitHub README.md** for your load-balancing experiment.
-No emojis, no informal tone.
-Written in a clear documentation style suitable for a public repository.
-
----
-
-# README.md
-
-## Load Balancer Experiment with Nginx, Multiple App Servers, and K6 Load Testing
+# Load Balancer Experiment with Nginx, Multiple App Servers, and K6 Load Testing
 
 This repository documents an experiment designed to understand how load balancing works in practice.
 Instead of studying theory alone, this project demonstrates the behavior of a load balancer under real traffic by creating a small distributed system locally and testing it with a load generator.
@@ -213,15 +205,3 @@ This experiment provides a clear and practical way to understand how load balanc
 By simulating high traffic locally and observing distribution across multiple application servers, core backend concepts become much easier to grasp and internalize.
 
 This repository is intended as a learning resource for anyone wanting a deeper understanding of load balancing, traffic distribution, and system scaling.
-
----
-
-If you want, I can also generate:
-
-- A clean folder structure for the repo
-- Dockerfiles for all services
-- The complete docker-compose file
-- A simplified architecture diagram in ASCII or PNG
-- A short README version for GitHub front page
-
-Tell me what you want next.
