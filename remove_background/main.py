@@ -1,4 +1,5 @@
-#!/usr/bin/env -S uv run --script
+#!/home/jeromel/Public/expriments/remove_background/.venv/bin/python
+
 # Importing Required Modules
 from rembg import remove
 from PIL import Image
